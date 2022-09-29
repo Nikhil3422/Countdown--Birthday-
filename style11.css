@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,200&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+body{
+    background-image: url("./Birthday1.jpg");
+ 
+    background-size: 30vh;
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    background-position: center center;
+    font-family: "poppins",sans-serif;
+    align-items: center;
+ 
+
+    margin:0;
+    border-radius: 5px;
+
+}
+ 
+.countdown-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+h3{
+    background-color: rgb(94, 94, 238);
+    border:1ps solid black; 
+    border-radius: 3px;
+    font-weight:normal;
+    color:White;
+    font-size: 2.5rem;
+    margin-top:5.5rem;
+}
+.big-text{
+    font-weight: bold;
+    color:black;
+    font-size:23px;
+    line-height: 1;
+    margin:0 30px ;
+}
+.countdown-el{
+     
+    text-align: center;
+    color:black;
+    
+}
+.countdown-el span{
+    font-size: 1rem;
+    
+}
